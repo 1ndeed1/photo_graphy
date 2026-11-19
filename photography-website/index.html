@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Abhinav N Photography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-stone-50 border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-5 py-5 flex flex-wrap items-center justify-between">
+      <a href="index.html" class="font-serif text-xl tracking-wide">Abhinav N<span class="hidden sm:inline text-stone-400"> / Photography</span></a>
+
+      <input type="checkbox" id="menu" class="peer hidden">
+      <label for="menu" class="md:hidden cursor-pointer text-xs uppercase tracking-widest">Menu</label>
+      <nav class="hidden peer-checked:block md:flex w-full md:w-auto mt-4 md:mt-0 md:gap-8"><a href="index.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 underline underline-offset-8">Home</a><a href="about.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">About</a><a href="portfolio.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Portfolio</a><a href="services.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Services</a><a href="contact.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Contact</a></nav>
+    </div>
+  </header>
+
+
+  <section class="relative h-[80vh] bg-cover bg-center" style="background-image: url('./Media/hero_1600x900.png');">
+    <div class="absolute inset-0 bg-black/30"></div>
+    <div class="relative max-w-6xl mx-auto px-5 h-full flex flex-col justify-end pb-14 text-white">
+      <h1 class="font-serif text-4xl sm:text-6xl max-w-2xl leading-tight">Photography by Abhinav N</h1>
+      <p class="mt-4 max-w-md text-white/80">Weddings, portraits and landscapes from Kerala and beyond.</p>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-5 mt-20 grid md:grid-cols-12 gap-8">
+    <h2 class="md:col-span-4 font-serif text-3xl">Hello, I'm Abhinav.</h2>
+    <div class="md:col-span-8 text-stone-600 leading-relaxed space-y-4">
+      <p>I'm a photographer based in Kochi. I shoot weddings, portraits and travel stories, mostly in natural light and with as little fuss as possible.</p>
+      <p>If you like what you see below, have a look at my services or send me a message.</p>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-5 mt-20">
+    <div class="flex items-end justify-between mb-6">
+      <h2 class="font-serif text-3xl">Selected Work</h2>
+      <a href="portfolio.html" class="text-xs uppercase tracking-widest underline underline-offset-4 hover:opacity-60">View all</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <figure>
+        <img src="./Media/wedding_800x1000.png" alt="Weddings" class="w-full aspect-[4/5] object-cover transition hover:opacity-80">
+        <figcaption class="mt-2 text-xs uppercase tracking-widest text-stone-500">Weddings</figcaption>
+      </figure>
+      <figure>
+        <img src="./Media/potraits.jpg" alt="Portraits" class="w-full aspect-[4/5] object-cover transition hover:opacity-80">
+        <figcaption class="mt-2 text-xs uppercase tracking-widest text-stone-500">Portraits</figcaption>
+      </figure>
+      <figure>
+        <img src="./Media/landscape.png" alt="Landscapes" class="w-full aspect-[4/5] object-cover transition hover:opacity-80">
+        <figcaption class="mt-2 text-xs uppercase tracking-widest text-stone-500">Landscapes</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-5 mt-24 border-t border-stone-300 pt-10 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+    <p class="font-serif text-2xl max-w-md">Planning something? I'm taking bookings for the coming months.</p>
+    <a href="contact.html" class="inline-block border border-stone-900 px-7 py-3 text-xs uppercase tracking-widest transition hover:bg-stone-900 hover:text-white">Get in touch</a>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="mt-28 border-t border-stone-200">
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row gap-6 md:items-center md:justify-between text-sm text-stone-500">
+      <p>&copy; 2026 Abhinav N Photography &middot; Kochi, Kerala</p>
+      <div class="flex flex-wrap gap-6 text-xs uppercase tracking-widest"><a href="index.html" class="hover:underline">Home</a><a href="about.html" class="hover:underline">About</a><a href="portfolio.html" class="hover:underline">Portfolio</a><a href="services.html" class="hover:underline">Services</a><a href="contact.html" class="hover:underline">Contact</a></div>
+      <p>abhinav@photo.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>

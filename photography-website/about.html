@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Abhinav N Photography</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 text-stone-800 font-sans">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-stone-50 border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-5 py-5 flex flex-wrap items-center justify-between">
+      <a href="index.html" class="font-serif text-xl tracking-wide">Abhinav N<span class="hidden sm:inline text-stone-400"> / Photography</span></a>
+
+      <input type="checkbox" id="menu" class="peer hidden">
+      <label for="menu" class="md:hidden cursor-pointer text-xs uppercase tracking-widest">Menu</label>
+
+      <nav class="hidden peer-checked:block md:flex w-full md:w-auto mt-4 md:mt-0 md:gap-8"><a href="index.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Home</a><a href="about.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 underline underline-offset-8">About</a><a href="portfolio.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Portfolio</a><a href="services.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Services</a><a href="contact.html" class="block py-2 md:py-0 text-xs uppercase tracking-widest transition hover:opacity-60 ">Contact</a></nav>
+    </div>
+  </header>
+
+  <section class="max-w-6xl mx-auto px-5 pt-16 pb-10">
+    <h1 class="font-serif text-4xl md:text-5xl">About</h1>
+  </section>
+  <section class="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12 items-start">
+    <img src="./Media/potrait.JPG" alt="Abhinav N" class="w-full object-cover">
+    <div>
+      <p class="font-serif text-2xl leading-snug mb-6">I started photographing trips with a borrowed camera and never really stopped.</p>
+      <div class="text-stone-600 leading-relaxed space-y-4">
+        <p>Over the last eight years I've worked on weddings, portraits and travel assignments across Kerala. I prefer natural light, quiet moments and simple edits.</p>
+        <p>I like working with people who are a bit camera-shy. A good session should feel like a relaxed afternoon, not a photoshoot.</p>
+      </div>
+      <dl class="mt-8">
+        <div class="flex justify-between py-3 border-b border-stone-200 text-sm"><dt class="text-stone-500">Based in</dt><dd>Kochi, Kerala</dd></div>
+        <div class="flex justify-between py-3 border-b border-stone-200 text-sm"><dt class="text-stone-500">Experience</dt><dd>8 years</dd></div>
+        <div class="flex justify-between py-3 border-b border-stone-200 text-sm"><dt class="text-stone-500">Specialises in</dt><dd>Weddings, portraits, landscapes</dd></div>
+        <div class="flex justify-between py-3 border-b border-stone-200 text-sm"><dt class="text-stone-500">Available</dt><dd>Across Kerala, travel on request</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-5 mt-24 grid md:grid-cols-2 gap-12 items-center">
+    <img src="./Media/cameragear.jpg" alt="Camera gear" class="w-full h-72 object-cover order-last md:order-first">
+    <div>
+      <h2 class="font-serif text-3xl mb-4">Gear</h2>
+      <p class="text-stone-600 leading-relaxed">A full-frame mirrorless camera, 35mm, 50mm and 85mm prime lenses, a small drone for aerial shots and a portable light for evening sessions.</p>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="mt-28 border-t border-stone-200">
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row gap-6 md:items-center md:justify-between text-sm text-stone-500">
+      <p>&copy; 2026 Abhinav N Photography &middot; Kochi, Kerala</p>
+      <div class="flex flex-wrap gap-6 text-xs uppercase tracking-widest"><a href="index.html" class="hover:underline">Home</a><a href="about.html" class="hover:underline">About</a><a href="portfolio.html" class="hover:underline">Portfolio</a><a href="services.html" class="hover:underline">Services</a><a href="contact.html" class="hover:underline">Contact</a></div>
+      <p>abhinav@photo.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
